@@ -1,7 +1,7 @@
 let http = require('http');
 let parse =require('url-parse') ;
 let fs = require('fs');
-const express = requrie("express");
+const express = requrie('express');
 const app = express();
 // const port = 8000;
  const port = process.env.port ||8000
