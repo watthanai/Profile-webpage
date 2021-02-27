@@ -3,8 +3,8 @@ let parse =require('url-parse') ;
 let fs = require('fs');
 const express = requrie("express");
 const app = express();
-const port = 8000;
-// const port = process.env.port ||8000
+// const port = 8000;
+ const port = process.env.port ||8000
 
 
 
@@ -28,7 +28,11 @@ const port = 8000;
 //    })
 // })
 
-app.get('/',(req,res) => res.send('Hello World'));   
+app.get('/',(req,res) => {
+    res.send('Hello World')
+
+});   
 
 
-app.listen(8000,()=>console.log("Seerver is running..."));
+app.listen(port,()=>{
+    console.log("Seerver is running...")});
