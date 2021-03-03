@@ -2007,6 +2007,8 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
+
 	header p {
 		color: #999;
 		margin: 0 0 1.5em 0;
@@ -2265,11 +2267,6 @@ input, select, textarea {
 
 /* Icon */
 
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -2324,15 +2321,30 @@ input, select, textarea {
 			color: #6b88e6;
 		}
 
-		.icon.major {
+		span.icon.cloud1 {
+			height: 100px;
+			left: 100px;
+			
+			position: absolute;
+			top: 0;
+			width: 100px;
+			
+		}
+
+
+		.icon.cloud1 {
 			text-decoration: none;
 			color: #555;
 			cursor: default;
 			display: inline-block;
-			margin: 0 0 1.5em 0;
+			position: absolute;
+			
+			
+						
+			
 		}
 
-			.icon.major:before {
+			.icon.cloud1:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2345,19 +2357,45 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
-			.icon.major:before {
+			.icon.cloud1:before {
+				font-size: 2em;
+				line-height: 1em;
+			}
+
+		.icon.cloud2 {
+			text-decoration: none;
+			color: #555;
+			cursor: default;
+			display: inline-block;
+			position: relative;
+			left: 500px;
+			margin: 0 0 0 0;
+			
+		}
+
+			.icon.cloud2:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 400;
+			}
+
+			.icon.cloud2:before {
 				font-size: 4em;
 				line-height: 1em;
 			}
 
+
+
 /* Image */
 
-	.image {
-		border-radius: 4px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
+
 
 		.image img {
 			border-radius: 4px;
@@ -2393,6 +2431,17 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+
+		.image.profile {
+			position:relative;
+			width: 50%;
+			height: 50%;
+			/* margin: 0px 100px 0px 100px;  */
+		   
+		}
+		
+
+		
 
 /* List */
 
@@ -2906,9 +2955,7 @@ input, select, textarea {
 				border-color: #ffffff;
 			}
 
-			.main.style2 .icon.major {
-				color: #ffffff;
-			}
+		
 
 /* Header */
 
@@ -2925,7 +2972,7 @@ input, select, textarea {
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative; 
-		text-align: right; 
+		/* text-align: right;  */
 	}
 
 		#header a {
@@ -3004,7 +3051,11 @@ input, select, textarea {
 			border-color: #ffffff;
 		}
 
-		#header .icon.major {
+		#header .icon.cloud2 {
+			color: #ffffff;
+		}
+
+		#header .icon.cloud1 {
 			color: #ffffff;
 		}
 
@@ -3062,8 +3113,9 @@ input, select, textarea {
 			-ms-transform: scale(1);
 			transform: scale(1);
 			opacity: 1;
-			position: relative;
-			z-index: 1;
+			
+			
+		
 		}
 
 			#header .inner .actions {
@@ -3206,7 +3258,7 @@ input, select, textarea {
 			border-color: #ffffff;
 		}
 
-		#footer .icon.major {
+		#footer .icon.cloud2 {
 			color: #ffffff;
 		}
 
@@ -3334,7 +3386,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+				padding: 0em 0em 0em 0em ;
 			}
 
 		/* Footer */
@@ -3401,7 +3453,7 @@ input, select, textarea {
 
 		/* Icon */
 
-			.icon.major {
+			.icon.cloud2 {
 				margin: 0 0 1em 0;
 			}
 
