@@ -60,7 +60,7 @@ mark {
 	color: inherit;
 }
 
-input::-moz-focus-inner {
+input::-moz-focus-introl{
 	border: 0;
 	padding: 0;
 }
@@ -144,10 +144,14 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-	h1 {
-		font-size: 5em;
+	h1.Name {
+		position: relative;
+		margin: 0 0 0 0;
+		
+		font-size: 20px;
 		line-height: 1em;
-	}
+		font-family: Helvetica,sans-serif;
+		}
 
 	h2 {
 		font-size: 2em;
@@ -246,6 +250,7 @@ input, select, textarea {
 		max-width: calc(100% - 4em);
 		width: 60em;
 	}
+		
 
 		.container.xsmall {
 			width: 15em;
@@ -295,6 +300,11 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+	}
+
+		
+
+	 	
 	}
 
 		.row > * {
@@ -485,9 +495,6 @@ input, select, textarea {
 			margin-left: -2em;
 		}
 
-			.row > * {
-				padding: 0 0 0 2em;
-			}
 
 			.row.gtr-uniform {
 				margin-top: -2em;
@@ -728,9 +735,7 @@ input, select, textarea {
 					margin-left: -2em;
 				}
 
-					.row > * {
-						padding: 0 0 0 2em;
-					}
+				
 
 					.row.gtr-uniform {
 						margin-top: -2em;
@@ -973,9 +978,7 @@ input, select, textarea {
 					margin-left: -2em;
 				}
 
-					.row > * {
-						padding: 0 0 0 2em;
-					}
+					
 
 					.row.gtr-uniform {
 						margin-top: -2em;
@@ -2007,6 +2010,8 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	
+
 
 
 	header p {
@@ -2321,23 +2326,17 @@ input, select, textarea {
 			color: #6b88e6;
 		}
 
-		span.icon.cloud1 {
-			height: 100px;
-			left: 100px;
-			
-			position: absolute;
-			top: 0;
-			width: 100px;
-			
-		}
-
+	
 
 		.icon.cloud1 {
 			text-decoration: none;
 			color: #555;
 			cursor: default;
 			display: inline-block;
-			position: absolute;
+			position: relative;
+			/* top: 100px;
+			left: 200px;  */
+			
 			
 			
 						
@@ -2368,8 +2367,7 @@ input, select, textarea {
 			cursor: default;
 			display: inline-block;
 			position: relative;
-			left: 500px;
-			margin: 0 0 0 0;
+			margin: 0 0 0 5em;
 			
 		}
 
@@ -2432,12 +2430,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.profile {
-			position:relative;
+		.image.profile img {
+			display: block;
+			border-radius: 4px;
 			width: 50%;
-			height: 50%;
-			/* margin: 0px 100px 0px 100px;  */
-		   
+		 
 		}
 		
 
@@ -2634,6 +2631,8 @@ input, select, textarea {
 		padding-left: 0;
 	}
 
+	
+
 		ul.major-icons li {
 			display: inline-block;
 			padding: 2.5em;
@@ -2663,8 +2662,11 @@ input, select, textarea {
 					display: inline-block;
 					line-height: inherit;
 				}
-
-/* Table */
+	ul.introl-icons{
+		list-style:none;
+		
+	}
+		/* Table */
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -3058,11 +3060,10 @@ input, select, textarea {
 		#header .icon.cloud1 {
 			color: #ffffff;
 		}
-
-		#header h1 {
-			 margin-right:50px; 
+ 
+		
 			
-		}
+		
 
 		#header p {
 			margin: 1em 0 0 0;
@@ -3099,7 +3100,7 @@ input, select, textarea {
 				width: 1px;
 			}
 
-		#header .inner {
+		#header .introl {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
 			-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
@@ -3113,12 +3114,15 @@ input, select, textarea {
 			-ms-transform: scale(1);
 			transform: scale(1);
 			opacity: 1;
+			margin-left: 10rem;
+    		/* margin-right: 10rem;  */
+    	    width: 100%;
 			
 			
 		
 		}
 
-			#header .inner .actions {
+			#header .introl .actions {
 				-moz-transition: -moz-transform 1.25s ease;
 				-webkit-transition: -webkit-transform 1.25s ease;
 				-ms-transition: -ms-transform 1.25s ease;
@@ -3132,6 +3136,7 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+			
 			}
 
 		#header:after {
@@ -3149,7 +3154,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-	body.is-preload #header .inner {
+	body.is-preload #header .introl {
 		-moz-transform: scale(1.05);
 		-webkit-transform: scale(1.05);
 		-ms-transform: scale(1.05);
@@ -3157,7 +3162,7 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-		body.is-preload #header .inner .actions {
+		body.is-preload #header .introl .actions {
 			-moz-transform: translateY(30em);
 			-webkit-transform: translateY(30em);
 			-ms-transform: translateY(30em);

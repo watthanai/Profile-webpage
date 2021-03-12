@@ -1,4 +1,3 @@
-//Hello word// 
 
 const express = require('express');
 const app = express();
