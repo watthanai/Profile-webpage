@@ -113,6 +113,7 @@ input, select, textarea {
 		border-bottom: dotted 1px #666;
 		color: inherit;
 		text-decoration: none;
+		
 	}
 
 		a:hover {
@@ -120,11 +121,13 @@ input, select, textarea {
 			color: #6bd4c8;
 		}
 
-	strong, b {
+	strong, b.Name ,b.Nickname{
 		/* color: #555; */
 		color: #F9E79F;
 		font-weight: 900;
 	}
+
+	
 
 	em, i {
 		font-style: italic;
@@ -148,25 +151,34 @@ input, select, textarea {
 
 		 h1, b.Name {
 		position: relative;
-		padding: 0.25em 0 0 1em;
+		padding: 0.25em 0 0 0;
 		font-size: 65px;
 		line-height: 1.1em;
 		/* font-family: Monospace; */
 		font-family: Source Sans Pro,Helvetica,sans-serif;
 		
+	
+
 		
 		}
-	h2.Nickname{
+	h2, b.Nickname{
 		position: relative;
-		padding: 0 0 0 7em;
+		padding: 0 0 0 3em;
 		font-family: Source Sans Pro,Helvetica,sans-serif;
 	}
-	.introl-icons p1{
+
+	 p1 b.introl1{
 		position: relative;
 		padding: 0 0 0 0;
-		color:#fff;
+		color:#555;
+		font-weight: 900;
 		
 		}
+	ul p2.detail-introl1{
+		position: relative;
+		padding: 0 0 0 5.5em;
+
+	}
 	
 
 
@@ -2500,7 +2512,21 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.profile img {
+		.image.profile1 img {
+			display: block;
+			border-radius: 10px;
+			width: 65%;
+			margin:  1em 0 1em 5em;
+		 
+		}
+		.image.profile2 img {
+			display: block;
+			border-radius: 10px;
+			width: 65%;
+			margin:  1em 0 1em 5em;
+		 
+		}
+		.image.profile3 img {
 			display: block;
 			border-radius: 10px;
 			width: 65%;
@@ -2508,6 +2534,10 @@ input, select, textarea {
 		 
 		}
 		
+	
+
+
+		 
 
 		
 
@@ -2941,7 +2971,14 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			/* background: #fff; */
+		background-color: #4686a0;
+		color: rgba(255, 255, 255, 0.75);
+		background-attachment: fixed,							fixed,							fixed;
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%);
+		background-position: top left,						center center,					center center;
+		background-size: auto,							cover,							cover;
+		text-align: center;
 		}
 
 		.main.style2 {
@@ -3029,10 +3066,13 @@ input, select, textarea {
 			}
 
 		
+			
+
+		
 
 /* Header */
 
-	
+
 	#header {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
@@ -3053,14 +3093,12 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
-		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #5D6D7E;
-			
-		}
+	
 
-		#header header p {
+		/* #header header p {
 			color: #ffffff;
-		}
+		} */
+		
 
 		#header header.major:after {
 			background: #ffffff;
@@ -3143,10 +3181,9 @@ input, select, textarea {
 		
 			
 		
-
-		#header p {
+ 
+		 #header p {
 			margin: 1em 0 0 0;
-			/* font-family: Raleway,Helvetica,sans-serif; */
 			font-family: Raleway,Helvetica,sans-serif;
     		font-size: .8rem;
    			letter-spacing: .05em;
@@ -3197,28 +3234,7 @@ input, select, textarea {
 			
 			}
 
-		#header:after {
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
-			content: '';
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
 
-	
-
-		
-
-	body.is-preload #header:after {
-		opacity: 1;
-	}
 
 /* Footer */
 
