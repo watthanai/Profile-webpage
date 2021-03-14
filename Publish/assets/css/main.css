@@ -130,6 +130,7 @@ input, select, textarea {
 		position: relative;
 		width:80%;
 		border-left: 4px solid #fff;
+		
 		padding: 20px 0px 0px 20px;
 		
 		
@@ -163,11 +164,21 @@ input, select, textarea {
 		/* padding: 20px; */
 		width: 20em;
 		height: 10em;
-		background-color: #4686a0;
+		/* background-color: #4686a0; */
+		border: 2px solid #fff;	
+		background-color: #fff;
+		background-image: linear-gradient(90deg, #fff 10%,#4686a0 90%);
 		color: #555;
-		
 		margin-bottom: 20px;
 		border-radius: 0px 20px 20px 20px;
+			
+
+
+
+
+
+
+
 	  }
 	  .timeline ul li:last-child {
 		margin-bottom: 0;
@@ -195,6 +206,10 @@ input, select, textarea {
 		  font-size: 12px;
 		  color: #768390;
 		  margin-bottom: 10px;
+	  }
+
+	  h3.date{
+
 	  }
 
 	
@@ -3079,7 +3094,6 @@ input, select, textarea {
 		header.Education{
 		
 		background-color: #4686a0;
-		
 		background-image: linear-gradient(45deg, #fff 25%,#4fa49a 75%);
 		/* background-position: top left,						center center,					center center;  */
 		border: 2px solid #555;		
