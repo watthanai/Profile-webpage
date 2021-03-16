@@ -125,16 +125,36 @@ input, select, textarea {
 		/* color: #555; */
 		color: #F9E79F;
 		font-weight: 900;
+		text-shadow: 2px 2px 10px #555;
+
 	}
+
+	  p1 b.information {
+			display:block;
+			position: relative;
+			left: auto;
+			/* padding: 0 0 0 0; */
+			color:#555;
+			font-weight: 900;
+			padding: 1em 0 0 1em; 
+			
+			
+	
+	}
+	 
+	
+	
+
+
+	
 	.timeline {
 		position: relative;
 		width:80%;
 		border-left: 4px solid #fff;
+		margin: 0 0 0 5em;
 		
-		padding: 20px 0px 0px 20px;
-		
-		
-
+		/* padding: 20px 0px 0px 0px; */
+	
 	  }
 	  .timeline ul li:before{
 		content: "";
@@ -208,8 +228,8 @@ input, select, textarea {
 		  margin-bottom: 10px;
 	  }
 
-	  h3.date{
-
+	  .timeline ul.T-left{
+		  margin: 0 0 2em 1em;
 	  }
 
 	
@@ -251,6 +271,8 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+		
+
 
 		 h1, b.Name {
 		position: relative;
@@ -288,6 +310,17 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.35em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+	}
+	
+	.Education p2 {
+		position: relative;
+		
+		font-size: 2em;
+		line-height: 1.35em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding-left:1.75em;
+		
 	}
 
 	h3 {
@@ -2201,6 +2234,7 @@ input, select, textarea {
 		header.major p {
 			margin: 0.7em 0 0 0;
 		}
+	
 
 	header.special {
 		text-align: center;
@@ -2530,10 +2564,10 @@ input, select, textarea {
 				cursor: default;
 				display: inline-block;
 				position: relative;
-				margin: 0 0 0 3em;
+				margin: 0 0 0 0;
 				
 			}
-	
+		
 				.icon.fas:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
@@ -2579,6 +2613,35 @@ input, select, textarea {
 						font-size: 1.5em;
 						line-height: 1em;
 					}
+
+
+					.icon.fa-user-graduate {
+						text-decoration: none;
+						color: #555;
+						cursor: default;
+						display: inline-block;
+						position: relative;
+						margin: 0 0 0 0;
+						
+					}
+				
+						.icon.fa-user-graduate:before {
+							-moz-osx-font-smoothing: grayscale;
+							-webkit-font-smoothing: antialiased;
+							display: inline-block;
+							font-style: normal;
+							font-variant: normal;
+							text-rendering: auto;
+							line-height: 1;
+							text-transform: none !important;
+							font-family: 'Font Awesome 5 Free';
+							font-weight: 400;
+						}
+			
+						.icon.fa-user-graduate:before {
+							font-size: 2em;
+							line-height: 1em;
+						}
 	
 
 
@@ -2627,6 +2690,7 @@ input, select, textarea {
 			border-radius: 10px;
 			width: 65%;
 			margin:  1em 0 1em 5em;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		 
 		}
 		.image.profile2 img {
@@ -2873,10 +2937,25 @@ input, select, textarea {
 					display: inline-block;
 					line-height: inherit;
 				}
-	ul.introl-icons{
+	ul.introl-icons, ul.info{
 		list-style:none;
 		
 	}
+	ul.info{
+		font-size: 1em;
+		font-weight: 200;
+		padding :1em 0 0em 5em;
+
+	}
+	.scope.person{
+		border: 5px solid rgba(3, 3, 3, 0.333);
+		border-radius:  50px 0 0 50px;
+	}
+	
+	
+
+
+
 		/* Table */
 
 	.table-wrapper {
@@ -3077,7 +3156,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 2em 0 ;
 	}
 
 		.main.style1 {
@@ -3088,7 +3167,7 @@ input, select, textarea {
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(to right,#6190C6, #4fa49a 50%, #fff);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
-		text-align: center; 
+		text-align: left;
 		}
 
 		header.Education{
@@ -3096,18 +3175,34 @@ input, select, textarea {
 		background-color: #4686a0;
 		background-image: linear-gradient(45deg, #fff 25%,#4fa49a 75%);
 		/* background-position: top left,						center center,					center center;  */
-		border: 2px solid #555;		
-		border-radius: 10px;
+		/* border: 2px solid #555;		 */
+		border-radius: 15px;
 		width:70%;
 		text-align: center;
+		align-items: center;
 		/* color: #F9E79F; */
 		font-weight: 800;
 		font-size: 0.75;
-		margin:  0 0 10px 4em ; 
-		
-		
-
+		margin:  0 0 1em 4em ; 
+	
 		}
+		
+		header.information{
+		
+			background-color: #4686a0;
+			background-image: linear-gradient(45deg,#59bae0 25%, #fff 75%);
+			/* background-position: top left,						center center,					center center;  */
+			/* border: 2px solid #555;		 */
+			border-radius: 10px;
+			width:70%;
+			text-align: center;
+			/* color: #F9E79F; */
+			font-weight: 800;
+			font-size: 0.75;
+			margin:  0 0 10px 4em ; 
+			
+			}
+	
 
 
 
@@ -3314,6 +3409,10 @@ input, select, textarea {
 		#header .icon.fas{
 			color: #ffffff;
 		}
+
+		
+
+		
 		
  
 		
@@ -3780,3 +3879,4 @@ input, select, textarea {
 			}
 
 	}
+
