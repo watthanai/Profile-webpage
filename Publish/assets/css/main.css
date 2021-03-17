@@ -191,6 +191,7 @@ input, select, textarea {
 		color: #555;
 		margin-bottom: 20px;
 		border-radius: 0px 20px 20px 20px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
 			
 
 
@@ -215,10 +216,12 @@ input, select, textarea {
 		font-weight: 300;
 	  }
 	  .timeline-content .date {
-		font-size: 12px;
+		font-size: 1.25em;
 		font-weight: 300;
-		margin-bottom: 10px;
+		margin-left: 4em;
 		letter-spacing: 2px;
+		font-weight: bold;
+		/* text-align: center; */
 	  }
 	  
 	  
@@ -343,6 +346,17 @@ input, select, textarea {
 		font-weight: bold;
 	}
 
+	span p3.date{
+		
+		
+		background-color: rgb(238, 151, 177);
+		background-image: linear-gradient(45deg, #ec78a5 75%,#fff 25%);
+		border-radius:  5px 5px 5px 5px ;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+		
+				
+	}
+
 
 
 
@@ -429,11 +443,11 @@ input, select, textarea {
 	
 	.Education p2 {
 		position: relative;
-		
 		font-size: 2em;
 		line-height: 1.35em;
 		font-family: Source Sans Pro,Helvetica,sans-serif;
 		padding-left:1.75em;
+		
 		
 	}
 	.information p2 {
