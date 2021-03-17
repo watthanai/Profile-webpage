@@ -151,7 +151,7 @@ input, select, textarea {
 		position: relative;
 		width:80%;
 		border-left: 4px solid #fff;
-		margin: 0 0 0 3em;
+		margin: 5em 0 0 2.5em;
 		
 		/* padding: 20px 0px 0px 0px; */
 	
@@ -303,6 +303,48 @@ input, select, textarea {
 		
 	}
 
+	h3.scholarship{
+		font-size: 1.5em;
+		font-weight: 900;
+		color:#f3d894;
+		padding-left: 1em;
+		text-shadow: 2px 2px #555;
+
+	}
+
+	ul.Detail-scholarship  {
+		list-style: none;
+		
+	}
+
+	ul.Detail-scholarship li {
+		padding:  0.5em 0 0.25em  0.5em;
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	h3.activity{
+		font-size: 1.5em;
+		font-weight: 900;
+		color:#f3aae1;
+		padding-left: 1em;
+		text-shadow: 2px 2px #555;
+
+	}
+
+	ul.Detail-activity  {
+		list-style: none;
+		
+	}
+
+	ul.Detail-activity li {
+		padding:  0.5em 0 0.25em  0.5em;
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+
+
 
 	
 	 
@@ -394,6 +436,19 @@ input, select, textarea {
 		padding-left:1.75em;
 		
 	}
+	.information p2 {
+		position: relative;
+		font-size: 2em;
+		line-height: 1.35em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding-left:1.75em;
+		
+	}
+
+
+
+
+
 
 	h3 {
 		font-size: 1.35em;
@@ -3026,6 +3081,12 @@ input, select, textarea {
 		border: 5px solid rgba(3, 3, 3, 0.333);
 		border-radius:  50px 0 0 50px;
 	}
+
+	.scope.education{
+		border: 5px solid rgba(3, 3, 3, 0.333);
+		border-radius:  0 0 0 50px;
+	}
+	
 	
 	
 
