@@ -234,13 +234,15 @@ input, select, textarea {
 
 	  ul.address{
 		list-style: none;
-		margin: 3em 0 2em 5em;
+		padding: 3em 0 2em 5em;
 		
 		
 
 	  }
 
 	  ul.address span {
+		position: relative;
+		margin: auto;
 		color: #555;
 
 	  }
@@ -252,7 +254,6 @@ input, select, textarea {
 	  ul.address p1  {
 		/* display: flex; */
 		position: relative;
-		
 		font-size: 1em;
 		font-weight: 600;
 		line-height: 0.75em;
@@ -272,6 +273,33 @@ input, select, textarea {
 		font-family: Source Sans Pro,Helvetica,sans-serif;
 		padding : 0 0 0 4.5em;
 		color: #555;
+		
+	}
+
+		ul.address p3  {
+		/* display: flex; */
+		position: relative;
+		
+		font-size: 1em;
+		font-weight: 600;
+		line-height: 0.75em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding : 0 0 0 2.9em;
+		color: rgb(85, 85, 85);
+		
+	}
+
+	
+	ul.address p4  {
+		/* display: flex; */
+		position: relative;
+		
+		font-size: 1em;
+		font-weight: 600;
+		line-height: 0.75em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding : 0 0 0 2.5em;
+		color: rgb(85, 85, 85);
 		
 	}
 
