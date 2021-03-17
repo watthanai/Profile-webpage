@@ -232,6 +232,50 @@ input, select, textarea {
 		  margin: 0 0 2em 1em;
 	  }
 
+	  ul.address{
+		list-style: none;
+		margin: 3em 0 2em 5em;
+		
+		
+
+	  }
+
+	  ul.address span {
+		color: #555;
+
+	  }
+
+	  ul.address li {
+		  padding-bottom: 1em;
+	  }
+
+	  ul.address p1  {
+		/* display: flex; */
+		position: relative;
+		
+		font-size: 1em;
+		font-weight: 600;
+		line-height: 0.75em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding : 0 0 0 2em;
+		color: #555;
+		
+	}
+
+		ul.address p2  {
+		/* display: flex; */
+		position: relative;
+		
+		font-size: 1em;
+		font-weight: 600;
+		line-height: 0.75em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding : 0 0 0 4.5em;
+		color: #555;
+		
+	}
+
+
 	
 	 
 	  
@@ -559,6 +603,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
+			
 		}
 
 		.row > .off-6 {
@@ -2943,8 +2988,10 @@ input, select, textarea {
 	}
 	ul.info{
 		font-size: 1em;
-		font-weight: 200;
+		font-weight: bold;
 		padding :1em 0 0em 5em;
+		
+		
 
 	}
 	.scope.person{
