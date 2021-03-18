@@ -183,7 +183,7 @@ input, select, textarea {
 	  .timeline ul li {
 		/* padding: 20px; */
 		width: 20em;
-		height: 10em;
+		height: 12em;
 		/* background-color: #4686a0; */
 		border: 2px solid #fff;	
 		background-color: #fff;
@@ -205,13 +205,12 @@ input, select, textarea {
 		margin-bottom: 0;
 	  }
 	  .timeline-content h1 {
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 25px;
-		line-height: 25px;
-		margin: 10px 0 10px  5px;
+		line-height: 20px;
+		margin: 15px 0 10px  10px;
 		text-align: center;
 		color:#555;
-	
 		text-shadow: 1px 1px 1px rgb(242, 243, 243);
 	  }
 	  .timeline-content p {
@@ -248,7 +247,7 @@ input, select, textarea {
 	  .TimelineBox-detail h3{
 		margin-left: 50px;
 		font-size: 1.50em;
-		font-weight: bold;
+		/* font-weight: bold; */
 
 		
 	
