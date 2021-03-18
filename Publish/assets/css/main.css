@@ -206,8 +206,8 @@ input, select, textarea {
 	  }
 	  .timeline-content h1 {
 		font-weight: 600;
-		font-size: 25px;
-		line-height: 20px;
+		font-size: 20px;
+		
 		margin: 15px 0 10px  10px;
 		text-align: center;
 		color:#555;
@@ -247,7 +247,7 @@ input, select, textarea {
 	  .TimelineBox-detail h3{
 		margin-left: 50px;
 		font-size: 1.50em;
-		/* font-weight: bold; */
+		font-weight: bold;
 
 		
 	
