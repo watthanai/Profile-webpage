@@ -151,7 +151,7 @@ input, select, textarea {
 		position: relative;
 		width:80%;
 		border-left: 4px solid #fff;
-		margin: 5em 0 0 2.5em;
+		margin: 5em 0 0 2em;
 		
 		/* padding: 20px 0px 0px 0px; */
 	
@@ -205,10 +205,14 @@ input, select, textarea {
 		margin-bottom: 0;
 	  }
 	  .timeline-content h1 {
-		font-weight: 500;
+		font-weight: 700;
 		font-size: 25px;
-		line-height: 30px;
-		margin-bottom: 10px;
+		line-height: 25px;
+		margin: 10px 0 10px  5px;
+		text-align: center;
+		color:#555;
+	
+		text-shadow: 1px 1px 1px rgb(242, 243, 243);
 	  }
 	  .timeline-content p {
 		font-size: 16px;
@@ -218,17 +222,47 @@ input, select, textarea {
 	  .timeline-content .date {
 		font-size: 1.25em;
 		font-weight: 300;
-		margin-left: 4em;
+		margin-left: 5em;
 		letter-spacing: 2px;
 		font-weight: bold;
-		/* text-align: center; */
+		
+		
 	  }
+
+	  .timeline-content .date-intern {
+		font-size: 1.25em;
+		font-weight: 300;
+		margin-left: 3.75em;
+		letter-spacing: 2px;
+		font-weight: bold;
+		
+	  }
+	  
 	  
 	  
 	  .TimelineBox-detail {
 		  font-size: 12px;
 		  color: #768390;
 		  margin-bottom: 10px;
+	  }
+	  .TimelineBox-detail h3{
+		margin-left: 50px;
+		font-size: 1.50em;
+		font-weight: bold;
+
+		
+	
+		
+	
+
+	  }
+
+	  .TimelineBox-detail p1{
+		margin-left: 10px;
+		
+		font-size: 1.25em;
+		font-weight: 1.25em;
+
 	  }
 
 	  .timeline ul.T-left{
@@ -353,8 +387,17 @@ input, select, textarea {
 		background-image: linear-gradient(45deg, #ec78a5 75%,#fff 25%);
 		border-radius:  5px 5px 5px 5px ;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+			
+	}
+
+	span p3.date-intern{
 		
-				
+		
+		background-color: rgb(238, 151, 177);
+		background-image: linear-gradient(45deg, #ec78a5 75%,#fff 25%);
+		border-radius:  5px 5px 5px 5px ;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+			
 	}
 
 
@@ -2665,12 +2708,11 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
-			}
-
-			.icon.cloud1:before {
 				font-size: 2em;
 				line-height: 1em;
 			}
+
+		
 
 		.icon.cloud2 {
 			text-decoration: none;
@@ -2693,12 +2735,11 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
-			}
-
-			.icon.cloud2:before {
 				font-size: 3.5em;
 				line-height: 1em;
 			}
+
+		
 
 		.icon.fas {
 				text-decoration: none;
@@ -2721,12 +2762,11 @@ input, select, textarea {
 					text-transform: none !important;
 					font-family: 'Font Awesome 5 Free';
 					font-weight: 400;
-				}
-	
-				.icon.fas:before {
 					font-size: 1.5em;
 					line-height: 1em;
 				}
+	
+			
 
 		.icon.cloud3 {
 					text-decoration: none;
@@ -2749,12 +2789,11 @@ input, select, textarea {
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 400;
-					}
-		
-					.icon.cloud3:before {
 						font-size: 1.5em;
 						line-height: 1em;
 					}
+		
+				
 
 
 					.icon.fa-user-graduate {
@@ -2778,13 +2817,36 @@ input, select, textarea {
 							text-transform: none !important;
 							font-family: 'Font Awesome 5 Free';
 							font-weight: 400;
-						}
-			
-						.icon.fa-user-graduate:before {
 							font-size: 2em;
 							line-height: 1em;
 						}
-	
+
+
+						.icon.fa-map-marker-alt {
+							text-decoration: none;
+							color: #555;
+							cursor: default;
+							display: inline-block;
+							position: relative;
+							margin-left:20px;
+							
+						}
+					
+							.icon.fa-map-marker-alt:before {
+								-moz-osx-font-smoothing: grayscale;
+								-webkit-font-smoothing: antialiased;
+								display: inline-block;
+								font-style: normal;
+								font-variant: normal;
+								text-rendering: auto;
+								line-height: 1;
+								text-transform: none !important;
+								font-family: 'Font Awesome 5 Free';
+								font-weight: 400;
+								font-size: 2em;
+								line-height: 1em;
+							}
+
 
 
 
