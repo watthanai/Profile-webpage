@@ -171,7 +171,7 @@ input, select, textarea {
 		right: 3.3em;
 	  }
 	  .timeline ul li:hover::before {
-		background-color:#555 ;  
+		background-color:rgb(170, 168, 168) ;  
 		
 		
 	  }
@@ -320,8 +320,113 @@ input, select, textarea {
 			border: 5px solid rgba(3, 3, 3, 0.333);
 			border-radius:  0 0 0 50px;
 			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 3px rgba(0, 0, 0, 0.19);
-			height: 85%;
+			height: 55%;
 		}
+		
+
+		.timeline-project {
+			position: relative;
+			width:80%;
+			
+			border-left: 4px solid #555;
+			margin: 5em 0 0 2em;
+			
+			/* padding: 20px 0px 0px 0px; */
+		
+		  }
+		  .timeline-project ul li:before{
+			content: "";
+			display: block;
+			position: relative;
+			height:25px;
+			width: 25px;
+			border-radius: 50%;
+			border:4px solid #fff;
+			background-color:#F5CD64;  
+			margin: 0 5em 0 0;
+			/* width: 10em; */
+			bottom: 1.5em;
+			right: 3.3em;
+		  }
+		  .timeline-project ul li:hover::before {
+			background-color:#555 ;  
+			
+			
+		  }
+	
+		
+		  .timeline-project ul {
+			list-style: none;
+		  }
+		  .timeline-project ul li {
+			/* padding: 20px; */
+			width: 20em;
+			height: 15em;
+			/* background-color: #4686a0; */
+			border: 2px solid #fff;	
+			background-color: #fff;
+			background-image: linear-gradient(90deg, #fff 10%,#4686a0 90%);
+			color: #555;
+			margin-bottom: 20px;
+			border-radius: 0px 20px 20px 20px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+				
+	
+	
+	
+	
+	
+	
+	
+		  }
+		  .timeline-project ul li:last-child {
+			margin-bottom: 0;
+		  }
+		  .timeline-project h1 {
+			font-weight: 600;
+			font-size: 20px;
+			
+			margin: 15px 0 10px  10px;
+			text-align: center;
+			color:#F5CD64;
+			text-shadow: 1px 2px 2px #555;
+		  }
+		  .timeline-project p {
+			font-size: 16px;
+			line-height: 30px;
+			font-weight: 300;
+		  }
+		  .timeline-project .date-project1 {
+			font-size: 1.25em;
+			font-weight: 300;
+			/* margin-left: 5em; */
+			letter-spacing: 2px;
+			font-weight: bold;
+			
+			
+		  }
+	
+		  .timeline-project .date-project2 {
+			font-size: 1.25em;
+			font-weight: 300;
+			margin-left: 3.75em;
+			letter-spacing: 2px;
+			font-weight: bold;
+			
+		  }
+		  
+		  
+		  
+		  .TimelineBox-detail {
+			  font-size: 12px;
+			  color: #768390;
+			  margin-bottom: 10px;
+		  }
+		  .TimelineBox-detail h3{
+			margin-left: 50px;
+			font-size: 1.50em;
+			/* font-weight: bold; */
+		  }
 		
 
 
@@ -346,6 +451,18 @@ input, select, textarea {
 	  .timeline ul.T-left{
 		  margin: 0 0 2em 1em;
 	  }
+	  
+	  .timeline-project ul.T-left{
+		margin: 0 0 2em 1em;
+	}
+
+	.timeline ul.Project-left{
+		margin: 0 0 2em 1em;
+	}
+	
+	.timeline-project ul.Project-left{
+	  margin: 0 0 2em 1em;
+  }
 
 	  ul.address{
 		list-style: none;
@@ -469,6 +586,25 @@ input, select, textarea {
 	}
 
 	span p3.date-intern{
+		
+		
+		background-color: rgb(238, 151, 177);
+		background-image: linear-gradient(45deg, #ec78a5 75%,#fff 25%);
+		border-radius:  5px 5px 5px 5px ;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+			
+	}
+	span p3.date-project1{
+		
+		
+		background-color: rgb(238, 196, 151);
+		background-image: linear-gradient(45deg, #55edb8 75%,#fff 25%);
+		border-radius:  5px 5px 5px 5px ;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 6px rgba(0, 0, 0, 0.19);
+			
+	}
+
+	span p3.date-project2{
 		
 		
 		background-color: rgb(238, 151, 177);
@@ -2934,7 +3070,7 @@ input, select, textarea {
 								text-transform: none !important;
 								font-family: 'Font Awesome 5 Free';
 								font-weight: 400;
-								font-size: 2em;
+								font-size: 1.7em;
 								line-height: 1em;
 							}
 
@@ -2963,6 +3099,32 @@ input, select, textarea {
 									line-height: 1em;
 								}
 
+
+								.icon.fa-archive {
+							text-decoration: none;
+							color: #555;
+							cursor: default;
+							display: inline-block;
+							position: relative;
+							margin-left:20px;
+							
+						}
+					
+							.icon.fa-archive:before {
+								-moz-osx-font-smoothing: grayscale;
+								-webkit-font-smoothing: antialiased;
+								display: inline-block;
+								font-style: normal;
+								font-variant: normal;
+								text-rendering: auto;
+								line-height: 1;
+								text-transform: none !important;
+								font-family: 'Font Awesome 5 Free';
+								font-weight: 400;
+								font-size: 1.5em;
+								line-height: 1em;
+							}
+			
 
 
 
@@ -3370,11 +3532,12 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.5);
-		color: #555 !important;
+		color: rgb(232, 79, 150) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.9em;
-		font-weight: 400;
+		font-weight: 800;
+		
 		height: 2.75em;
 		letter-spacing: 0.125em;
 		line-height: 2.75em;
@@ -3384,6 +3547,7 @@ input, select, textarea {
 		text-indent: 0.125em;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin: 2em 0 0 12em;
 	}
 
 		input[type="submit"]:hover,
@@ -3391,7 +3555,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: #fdffff;
 		}
 
 		input[type="submit"]:active,
@@ -3533,7 +3697,7 @@ input, select, textarea {
 			}
 
 			header.Projects{
-		
+				
 				background-color: #3c947e;
 				background-image: linear-gradient(45deg, #fff 25%,#f8e9a6 75%);
 				/* background-position: top left,						center center,					center center;  */
