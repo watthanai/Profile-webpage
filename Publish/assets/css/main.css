@@ -212,6 +212,7 @@ input, select, textarea {
 		text-align: center;
 		color:#555;
 		text-shadow: 1px 1px 1px rgb(242, 243, 243);
+		text-align: left;
 	  }
 	  .timeline-content p {
 		font-size: 16px;
@@ -674,6 +675,7 @@ input, select, textarea {
 		
 		font-size: 1.25em;
 		font-weight: 1.25em;
+		text-align: left;
 
 	  }
 
@@ -698,22 +700,25 @@ input, select, textarea {
 		padding: 3em 0 2em 5em;
 		
 		
+		
 
 	  }
 
 	  ul.address span {
 		position: relative;
-		margin: auto;
+		margin:  0 0 0 0;
 		color: #555;
+		
 
 	  }
 
 	  ul.address li {
 		  padding-bottom: 1em;
+		  text-align: left;
 	  }
 
 	  ul.address p1  {
-		/* display: flex; */
+		
 		position: relative;
 		font-size: 1em;
 		font-weight: 600;
@@ -722,47 +727,9 @@ input, select, textarea {
 		padding : 0 0 0 2em;
 		color: #555;
 		
-	}
-
-		ul.address p2  {
-		/* display: flex; */
-		position: relative;
-		
-		font-size: 1em;
-		font-weight: 600;
-		line-height: 0.75em;
-		font-family: Source Sans Pro,Helvetica,sans-serif;
-		padding : 0 0 0 4.5em;
-		color: #555;
 		
 	}
 
-		ul.address p3  {
-		/* display: flex; */
-		position: relative;
-		
-		font-size: 1em;
-		font-weight: 600;
-		line-height: 0.75em;
-		font-family: Source Sans Pro,Helvetica,sans-serif;
-		padding : 0 0 0 2.9em;
-		color: rgb(85, 85, 85);
-		
-	}
-
-	
-	ul.address p4  {
-		/* display: flex; */
-		position: relative;
-		
-		font-size: 1em;
-		font-weight: 600;
-		line-height: 0.75em;
-		font-family: Source Sans Pro,Helvetica,sans-serif;
-		padding : 0 0 0 2.5em;
-		color: rgb(85, 85, 85);
-		
-	}
 
 	h3.scholarship{
 		font-size: 1.5em;
@@ -770,6 +737,7 @@ input, select, textarea {
 		color:#f3d894;
 		padding-left: 1em;
 		text-shadow: 2px 2px #555;
+		text-align: left;
 
 	}
 
@@ -782,6 +750,7 @@ input, select, textarea {
 		padding:  0.5em 0 0.25em  0.5em;
 		font-size: 1em;
 		font-weight: bold;
+		text-align: left;
 	}
 
 	h3.activity{
@@ -790,6 +759,7 @@ input, select, textarea {
 		color:#f3aae1;
 		padding-left: 1em;
 		text-shadow: 2px 2px #555;
+		text-align: left;
 
 	}
 
@@ -802,6 +772,7 @@ input, select, textarea {
 		padding:  0.5em 0 0.25em  0.5em;
 		font-size: 1em;
 		font-weight: bold;
+		text-align: left;
 	}
 
 	span p3.date{
@@ -944,6 +915,7 @@ input, select, textarea {
 		line-height: 1.35em;
 		font-family: Source Sans Pro,Helvetica,sans-serif;
 		padding-left:1.75em;
+		text-align: left;
 		
 	}
 
@@ -1223,6 +1195,7 @@ input, select, textarea {
 
 		.row > .col-8 {
 			width: 66.66667%;
+			
 		}
 
 		.row > .off-8 {
@@ -3212,6 +3185,7 @@ input, select, textarea {
 				position: relative;
 				margin: 0 0 0 0;
 				
+				
 			}
 		
 				.icon.fas:before {
@@ -3227,6 +3201,7 @@ input, select, textarea {
 					font-weight: 400;
 					font-size: 1.5em;
 					line-height: 1em;
+					
 				}
 	
 			
@@ -3663,6 +3638,7 @@ input, select, textarea {
 		font-size: 1em;
 		font-weight: bold;
 		padding :1em 0 0em 5em;
+		text-align: left;
 		
 		
 
