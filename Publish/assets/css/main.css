@@ -581,6 +581,75 @@ input, select, textarea {
 			
 		  }
 
+		  .SKILL_gallery {
+			
+			display: grid;
+			/* grid-template-columns: repeat(10, 1fr);
+			grid-template-rows: repeat(9, 5vw);
+			grid-gap: 10px; */
+			grid-template-columns: 1fr;
+			margin : 1.5em 0.5em 0em  0.5em;
+
+		}
+		.SKILL_gallery__img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			
+		}
+		.SKILL_gallery__item--1 {
+			grid-column-start: 2;
+			grid-column-end: 10;
+			grid-row-start: 1;
+			grid-row-end: 4;
+			opacity: 0.7;
+		
+			
+			
+		}
+		
+		.SKILL_gallery__item--3 {
+			grid-column-start: 6;
+			grid-column-end: 11;
+			grid-row-start: 1;
+			grid-row-end: 5;
+			opacity: 0.8;
+		}
+		.SKILL_gallery__item--4 {
+			grid-column-start: 1;
+			grid-column-end: 11;
+			grid-row-start: 5;
+			grid-row-end: 9;
+			
+		}
+		.SKILL_gallery__item--1 img {
+			
+			opacity: 0.85;
+			border-radius:  30px 30px 30px 30px ;
+		
+		}
+		.SKILL_gallery__item--3 img {
+			
+		
+			
+			opacity: 1;
+			border-radius:  30px 30px 30px 30px ;
+		
+		}
+		.SKILL_gallery__item--4 img {
+			
+			
+			opacity: 0.85;
+			border-radius:  30px 30px 30px 30px ;
+		
+		}
+
+		.SKILL_figure{
+			border: 5px solid rgba(3, 3, 3, 0.333);
+			border-radius:  0 0 0 50px;
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 3px rgba(0, 0, 0, 0.19);
+			height: 55%;
+		}
 
 
 
@@ -882,6 +951,13 @@ input, select, textarea {
 		padding-left:1.75em;
 		
 		
+	}
+	.SKILLS p2 {
+		position: relative;
+		font-size: 2em;
+		line-height: 1.35em;
+		font-family: Source Sans Pro,Helvetica,sans-serif;
+		padding-left:1.75em;
 	}
 
 
@@ -3852,6 +3928,24 @@ input, select, textarea {
 			}
 
 			header.Projects{
+				
+				background-color: #3c947e;
+				background-image: linear-gradient(45deg, #fff 25%,#f8e9a6 75%);
+				/* background-position: top left,						center center,					center center;  */
+				/* border: 2px solid #555;		 */
+				border-radius: 15px;
+				width:70%;
+				text-align: center;
+				align-items: center;
+				/* color: #F9E79F; */
+				font-weight: 800;
+				font-size: 0.75;
+				margin:  0 0 1em 4em ; 
+			
+				}
+
+
+			header.SKILLS{
 				
 				background-color: #3c947e;
 				background-image: linear-gradient(45deg, #fff 25%,#f8e9a6 75%);
